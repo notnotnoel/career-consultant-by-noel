@@ -40,7 +40,7 @@ Every reply opens with the stage it's running, so you always know what Claude is
 
 ### Claude app (recommended)
 
-1. Download `career-consultant-by-noel.zip` from the [latest release](../../releases/latest).
+1. Download [`career-consultant-by-noel.zip`](https://github.com/notnotnoel/career-consultant-by-noel/raw/main/dist/career-consultant-by-noel.zip). It's also in the `dist/` folder.
 2. Check that **Code execution and file creation** is turned on in **Settings > Capabilities**.
    - On Team and Enterprise plans, an owner controls this setting.
 3. Go to **Customize > Skills**, click **+**, choose **Create skill > Upload a skill**, and upload the zip.
@@ -94,7 +94,7 @@ The skill has no servers of its own. Your files stay in your folder and your Cla
 
 | Problem | Fix |
 |---|---|
-| Upload fails | The zip must contain the `career-consultant-by-noel` folder at its root, with `SKILL.md` inside. Use the release zip as is. |
+| Upload fails | The zip must contain the `career-consultant-by-noel` folder at its root, with `SKILL.md` inside. Use the zip from `dist/` as is. |
 | No Skills section | Turn on code execution in **Settings > Capabilities**. |
 | "Indeed isn't connected" | Add the Indeed connector, then ask for the scan again. |
 | PDF fonts look different | Claude's sandbox may not have your font. Export the final PDF from Word or Pages. |
@@ -107,10 +107,11 @@ The skill has no servers of its own. Your files stay in your folder and your Cla
 skills/career-consultant-by-noel/   the skill: SKILL.md, references/, scripts/, templates/
   evals/                            11 test cases (claude plugin eval format)
 dev/trigger-eval-set.json           queries for tuning the skill description
+dist/career-consultant-by-noel.zip  upload-ready skill for the Claude app
 ```
 
 - **Validate:** run `claude plugin validate .`
 - **Run the tests:** from the repo root, run `claude plugin eval . --allow-tools Write,Edit,Bash --scaffold --runs 1`. This needs Claude Code v2.1.269 or later. The runs are billed: each case runs with and without the skill, and three times by default.
-- **Build the release zip:** zip the `skills/career-consultant-by-noel` folder without `evals/`, so the zip's root is that folder.
+- **Rebuild `dist/career-consultant-by-noel.zip` after every change to the skill:** zip the `skills/career-consultant-by-noel` folder without `evals/`, so the zip's root is that folder.
 
 See [CHANGELOG.md](CHANGELOG.md) for version history. MIT licensed. Created by Noel Paliath; not affiliated with Anthropic.
