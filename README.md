@@ -1,5 +1,7 @@
 # Career Consultant by Noel
 
+![Career Consultant by noel: the 11-stage job-search framework](assets/overview.png)
+
 A job-search system for Claude. Set it up once, and Claude runs your search with you:
 
 - builds a verified **career twin** from your resumes, LinkedIn and notes
