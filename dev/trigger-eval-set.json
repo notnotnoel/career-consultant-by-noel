@@ -1,0 +1,22 @@
+[
+  {"query": "ok so a recruiter from Grab just pinged me on linkedin about a strategy & ops manager role and wants my CV by tmr. can you tailor my resume to it? JD: lead quarterly planning for the mobility BU, build business cases for new cities, 5+ yrs consulting or strategy", "should_trigger": true},
+  {"query": "I got laid off last week from my product ops job at a fintech in Singapore. where do I even start? I want something in 2 months, ideally similar pay (around S$9k a month)", "should_trigger": true},
+  {"query": "can u update my career twin, I got promoted to senior manager in sept and now run a team of 8", "should_trigger": true},
+  {"query": "Here's my CV (Resume_2026.docx). Score it the way a hiring manager for Stripe's Strategic Finance role would and tell me what to fix first", "should_trigger": true},
+  {"query": "Tailspin made me an offer, 11.5k base + 2 months AWS. is that decent for a pricing manager with 6 yrs experience? should I counter?", "should_trigger": true},
+  {"query": "show me my application tracker and which follow-ups I'm late on", "should_trigger": true},
+  {"query": "I have a final round with the COO of a logistics company on Thursday. can you run a mock interview with me on my supply chain projects?", "should_trigger": true},
+  {"query": "find me hybrid data product manager roles in Sydney paying over 180k AUD and score them for fit against my background", "should_trigger": true},
+  {"query": "draft a thank-you note to the hiring manager I met today at Wise, we talked a lot about their APAC expansion plans", "should_trigger": true},
+  {"query": "how should I explain the 8 month gap on my resume from caring for my dad? and can you update my CV to handle it", "should_trigger": true},
+  {"query": "I'm hiring a senior data engineer for my team. can you write the job description and an interview scorecard?", "should_trigger": false},
+  {"query": "screen these 40 resumes we got for our marketing coordinator opening and rank the top 5 candidates", "should_trigger": false},
+  {"query": "write my quarterly self-review for my manager, I led the SAP migration and cut close time by 2 days", "should_trigger": false},
+  {"query": "make a simple resume template in Word for my high school students to practise with in class", "should_trigger": false},
+  {"query": "what's the average salary for a registered nurse in Ohio compared with Texas?", "should_trigger": false},
+  {"query": "draft a LinkedIn post announcing our company's Series B round, upbeat but not cringe", "should_trigger": false},
+  {"query": "help me write an offer letter for the head of sales candidate we're hiring, base 180k plus commission", "should_trigger": false},
+  {"query": "convert my CV pdf into a word doc so I can edit it, don't change any of the content", "should_trigger": false},
+  {"query": "explain how ATS systems parse resumes, it's for a blog post I'm writing about hiring tech", "should_trigger": false},
+  {"query": "is the 12-month non-compete clause in this Singapore employment contract actually enforceable?", "should_trigger": false}
+]

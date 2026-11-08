@@ -1,0 +1,67 @@
+{
+  "layout": {
+    "paper": "A4",
+    "font": "Georgia",
+    "body_pt": 10.5,
+    "min_body_pt": 9.4,
+    "max_pages": 2,
+    "margins_cm": 1.8,
+    "accent_hex": "1F3864",
+    "section_order": ["profile", "skills", "experience", "education", "additional"]
+  },
+  "header": {
+    "name": "Maya Chen",
+    "headline": "Pricing and revenue strategy · B2B distribution",
+    "contact": [
+      "maya.chen@example.com",
+      "+65 9000 0000",
+      "Singapore",
+      "[linkedin.com/in/maya-chen-example](https://www.linkedin.com/in/maya-chen-example)"
+    ]
+  },
+  "profile": "Pricing lead with six years in B2B distribution, turning messy transaction data into list-price and discount decisions that sales teams actually adopt. Recovered **2.1 pts of gross margin** at Fabrikam by closing discount leakage across 3 APAC markets.",
+  "skills": {
+    "columns": [
+      {"title": "Pricing and revenue", "items": ["List-price architecture", "Discount guardrails and deal desk", "Price-volume-mix analysis"]},
+      {"title": "Analytics", "items": ["SQL, Python (pandas)", "Power BI", "Elasticity modelling"]},
+      {"title": "Sectors", "items": ["Industrial distribution", "Electronics components", "B2B e-commerce"]}
+    ]
+  },
+  "experience": [
+    {
+      "employer": "Fabrikam Industrial",
+      "title": "Pricing Lead, APAC",
+      "location": "Singapore",
+      "dates": "Jan 2021 – Present",
+      "summary": "Owns pricing for a S$310M catalogue across 3 markets; team of 4.",
+      "bullets": [
+        "Recovered **2.1 pts gross margin (S$6.5M a year)** by closing discount leakage, by mapping 1.2M invoice lines to approval rules and redesigning deal-desk thresholds",
+        {
+          "text": "Lifted price-change adoption from 40% to 85% of SKUs within two quarters, by",
+          "sub": ["co-designing a monthly pricing review with 3 country sales heads", "replacing spreadsheet uploads with a validated Power BI workflow"]
+        },
+        "Cut quote turnaround from 3 days to same-day for 70% of deals by automating standard-discount approvals"
+      ]
+    },
+    {
+      "employer": "Contoso Distribution",
+      "title": "Commercial Analyst",
+      "location": "Singapore",
+      "dates": "Jul 2019 – Dec 2020",
+      "bullets": [
+        "Built the first price-volume-mix bridge for the regional P&L, adopted in monthly CFO reviews",
+        "Identified S$1.2M in under-priced long-tail SKUs; 60% repriced within 6 months"
+      ]
+    }
+  ],
+  "earlier_experience": [
+    {"employer": "Northwind Traders", "title": "Graduate Analyst", "dates": "2018 – 2019"}
+  ],
+  "education": [
+    {"school": "National University of Singapore", "degree": "B.Sc. Business Analytics, Honours (Distinction)", "dates": "2014 – 2018"}
+  ],
+  "additional": [
+    {"title": "Certifications", "items": ["Certified Pricing Professional (CPP), Professional Pricing Society, 2022"]},
+    {"title": "Languages", "items": ["English (native), Mandarin (professional)"]}
+  ]
+}

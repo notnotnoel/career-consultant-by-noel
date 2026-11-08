@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: multi-ask-ordering
+expected_outcome: |
+  Announces S1 first and records the certification, then moves through S4 into S5 (announcing each state); builds the CV from the twin into the role's 01_Custom Resume folder.
+context:
+  scaffold_script: place-files.sh

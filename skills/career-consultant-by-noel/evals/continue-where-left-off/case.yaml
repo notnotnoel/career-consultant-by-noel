@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: continue-where-left-off
+expected_outcome: |
+  Reads the context file, announces it is resuming at S5 for the Wide World Importers role, and continues (or confirms) the CV build without restarting setup.
+context:
+  scaffold_script: place-files.sh

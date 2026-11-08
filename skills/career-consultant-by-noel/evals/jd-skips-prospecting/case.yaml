@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: jd-skips-prospecting
+expected_outcome: |
+  Announces S4 and that the job scan is skipped because a JD was shared; creates the role folder with the JD saved; gives a fit table grounded in the twin that flags Tableau as a gap; states one priority criterion and a verdict.
+context:
+  scaffold_script: place-files.sh

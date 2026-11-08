@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: recalibrate-preferences
+expected_outcome: |
+  Announces S3 calibration only; proposes a re-weighted rubric that puts work-life balance first and relaxes the title/comp emphasis, explains how fit is scored, asks for confirmation, and doesn't run a scan.
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: scan-without-indeed
+expected_outcome: |
+  Announces S2, notices the Indeed connector isn't available and asks the user to connect it (or explains what it can do instead), and never presents invented job listings.
+context:
+  scaffold_script: place-files.sh

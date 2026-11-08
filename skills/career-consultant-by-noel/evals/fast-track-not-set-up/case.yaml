@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: fast-track-not-set-up
+expected_outcome: |
+  Recognises there is no workspace yet, announces the setup fast-track, and asks for a folder and the user's resume before tailoring; does not write a CV from invented facts.
+context:
+  scaffold_script: place-files.sh

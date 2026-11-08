@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: tracker-status-update
+expected_outcome: |
+  Announces S9; closes the Litware row and moves Tailspin Toys to Interviewing with the interview as the follow-up; confirms briefly and suggests interview prep (S8) as the next step.
+context:
+  scaffold_script: place-files.sh

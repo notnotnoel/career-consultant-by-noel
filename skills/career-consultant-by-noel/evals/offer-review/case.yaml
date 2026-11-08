@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: offer-review
+expected_outcome: |
+  Announces S10; computes annual total compensation and uplift versus the twin baseline with visible maths; asks for missing terms; benchmarks with cited sources; drafts negotiation options without accepting or declining for the user.
+context:
+  scaffold_script: place-files.sh

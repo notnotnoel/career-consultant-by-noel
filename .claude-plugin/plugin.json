@@ -1,0 +1,23 @@
+{
+  "name": "career-consultant-by-noel",
+  "displayName": "Career Consultant by Noel",
+  "version": "1.0.0",
+  "description": "A state-aware job-search system: verified career twin, scored job scans, JD-tailored resumes with hiring-manager scoring, outreach drafts, an application tracker, and interview and offer prep.",
+  "author": {
+    "name": "Noel Paliath"
+  },
+  "homepage": "https://github.com/notnotnoel/career-consultant-by-noel",
+  "repository": "https://github.com/notnotnoel/career-consultant-by-noel",
+  "license": "MIT",
+  "keywords": [
+    "career",
+    "job-search",
+    "resume",
+    "cv",
+    "interview",
+    "job-tracker"
+  ],
+  "experimental": {
+    "evals": "skills/career-consultant-by-noel/evals"
+  }
+}

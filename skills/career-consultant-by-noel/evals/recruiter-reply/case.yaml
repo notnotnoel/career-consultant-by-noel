@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: recruiter-reply
+expected_outcome: |
+  Announces S7; drafts a short reply in Maya's voice (under 150 words, no bullets, no em-dashes) that opens with a relevant positioning line, proposes times or asks for the role details, and is not sent.
+context:
+  scaffold_script: place-files.sh

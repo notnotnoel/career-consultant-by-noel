@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: career-update-twin-only
+expected_outcome: |
+  Announces S1, updates only the twin (team size and margin figure, with a don't-regress style note and appropriate tags), and does not build a CV, scan, or draft messages.
+context:
+  scaffold_script: place-files.sh

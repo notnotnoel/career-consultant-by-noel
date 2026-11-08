@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: first-run-setup
+expected_outcome: |
+  Announces S0 setup, explains how to create a Project and connect a career folder, and waits for the folder before creating files, asking for documents or scanning for jobs.
