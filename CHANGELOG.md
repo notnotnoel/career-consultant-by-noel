@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 · 2026-11-09
+
+- **Resume format lock.** When the user has an approved master resume or a `Resume Format Standard.md` in Career Sources, every CV is built by copying that master and replacing the text only. Page 1 is compared with the master before delivery. The generic builder is used only when no master exists.
+- **New template:** `templates/Resume Format Standard.template.md`, for recording a user's approved format.
+
 ## 1.0.0 · 2026-11-08
 
 First public release.

@@ -7,6 +7,17 @@ Goal: a CV for one role that a busy reader can scan in 30 seconds, built only fr
 - the S4 priority criterion and fit table
 - the JD in `00_JD/`
 
+## Step 0: check for a locked format
+
+Look in `99_All Files/00_Career Sources/` for `Resume Format Standard.md` and for a master resume the user has approved.
+
+- **If either exists, follow the master-template path:**
+  1. Copy the master `.docx` into `01_Custom Resume/` under the new file name.
+  2. Replace the text paragraph by paragraph. Keep every style, the numbering, tables, borders, margins and fonts. Add or remove items by duplicating or deleting existing paragraphs of the same type, never by creating new formatting.
+  3. Render to PDF and compare page 1 with the master's page 1: font, sizes, spacing, numbering and section order. Fix any difference before delivery.
+  4. Then run the quality loops and truth gates below, and skip steps 1, 3 and 7.
+- **If neither exists:** use the steps below. After the user approves a CV, offer to make it the master and write a `Resume Format Standard.md` from it (see `templates/Resume Format Standard.template.md`).
+
 ## Steps
 
 1. **Write the content file.** Save it at `<role folder>/99_Claude scripts/resume_content.json`, following `templates/resume_content.example.json`.

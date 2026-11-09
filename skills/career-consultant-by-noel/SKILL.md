@@ -4,7 +4,7 @@ description: Runs a job seeker's whole search in stages. It sets up a career twi
 license: MIT
 metadata:
   author: Noel Paliath
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Career consultant by Noel
@@ -122,7 +122,8 @@ Announce again each time you move to a new state within a turn.
 
   Tags tell the user which claims will hold up under questioning.
 - **One priority criterion per role**, for example *pricing analytics > stakeholder influence > SQL*. It decides which experience gets full bullets and which gets compressed. A CV that tries to show everything says nothing.
-- **Rebuild, don't hand-edit.** Resumes come from a content file through `scripts/build_resume.py`, so any version can be regenerated after a correction.
+- **Resume format lock.** If `99_All Files/00_Career Sources/` holds a `Resume Format Standard.md` or a master resume the user has approved, every resume must match it exactly. Copy the master `.docx` and replace the text only. Before delivery, compare page 1 with the master. Use `scripts/build_resume.py` only when no master exists. A CV that looks different from the user's approved version gets rejected, so this rule takes priority over the S5 defaults.
+- **Rebuild, don't hand-edit.** Keep resume content in a content file in `99_Claude scripts/`, so any version can be regenerated after a correction.
 - **Corrections flow back.** Every correction goes into the twin with a "don't regress" note, so the next application starts from the fixed version.
 - **The user acts; Claude prepares.** Never submit an application, send a message, or accept or decline anything for the user. Draft it, and let them press send.
 - **Respect people and platforms.**
