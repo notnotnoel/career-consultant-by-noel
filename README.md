@@ -116,4 +116,4 @@ dist/career-consultant-by-noel.zip  upload-ready skill for the Claude app
 - **Run the tests:** from the repo root, run `claude plugin eval . --allow-tools Write,Edit,Bash --scaffold --runs 1`. This needs Claude Code v2.1.269 or later. The runs are billed: each case runs with and without the skill, and three times by default.
 - **Rebuild `dist/career-consultant-by-noel.zip` after every change to the skill:** zip the `skills/career-consultant-by-noel` folder without `evals/`, so the zip's root is that folder.
 
-See [CHANGELOG.md](CHANGELOG.md) for version history. MIT licensed. Created by Noel Paliath; not affiliated with Anthropic.
+See [CHANGELOG.md](CHANGELOG.md) for version history. MIT licensed. Created by noel (github.com/notnotnoel); not affiliated with Anthropic.

@@ -3,7 +3,7 @@ name: career-consultant-by-noel
 description: Runs a job seeker's whole search in stages. It sets up a career twin from resumes and notes, scans Indeed and LinkedIn and scores roles, tailors resumes to a job description and stress-tests them with simulated hiring managers, drafts recruiter replies, keeps an application tracker, and preps interviews and offers. Use whenever someone is job hunting or mentions a job description, resume or CV, cover letter, recruiter message, application status, interview or offer, or wants to update their career history, even without naming this skill. Not for employers hiring or screening candidates.
 license: MIT
 metadata:
-  author: Noel Paliath
+  author: notnotnoel
   version: 1.1.0
 ---
 

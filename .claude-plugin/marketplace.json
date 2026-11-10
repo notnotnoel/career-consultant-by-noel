@@ -1,7 +1,7 @@
 {
   "name": "noel-career-tools",
-  "owner": { "name": "Noel Paliath" },
-  "description": "Career and job-search tools for Claude by Noel Paliath.",
+  "owner": { "name": "notnotnoel" },
+  "description": "Career and job-search tools for Claude by noel.",
   "plugins": [
     {
       "name": "career-consultant-by-noel",
