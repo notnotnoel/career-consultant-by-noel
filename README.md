@@ -103,6 +103,21 @@ The skill has no servers of its own. Your files stay in your folder and your Cla
 | PDF fonts look different | Claude's sandbox may not have your font. Export the final PDF from Word or Pages. |
 | A new chat doesn't know my progress | Connect the same folder to the new chat, then say "continue where we left off". |
 
+## Token efficiency
+
+Each turn only reads `SKILL.md` plus the one state guide it routes to — never the whole skill. Splitting the monolithic `SKILL.md` into a selector (v1.2.0) and then moving its shared rules into each guide (v1.3.0) cut that per-turn load by about 41% from the original release.
+
+![Estimated tokens per turn, by version, with % uplift vs v1.0.0](assets/token_efficiency.png)
+
+| Version | Est. tokens/turn | vs v1.0.0 |
+|---|---|---|
+| v1.0.0 | ~2,389 | baseline |
+| v1.1.0 | ~2,504 | −4.8% (a feature landed before the selector refactor) |
+| v1.2.0 | ~1,472 | +38.4% |
+| v1.3.0 | ~1,400 | +41.4% |
+
+Methodology: word count of `SKILL.md` plus the average state guide at that version (×1.3 as a rough words-to-tokens proxy), measured from each version's own commit. It's a proxy, not a token-counter reading — real per-turn cost also depends on the context file and what the state guide itself does.
+
 ## For contributors
 
 ```
