@@ -22,7 +22,8 @@ Every reply opens with the stage it's running, so you always know what Claude is
 | S0 · Setup | First run: create a Project and a career folder |
 | S1 · Career twin | You share career info. Only your twin is updated. |
 | S2 · Prospect | You ask for a job scan (Indeed, LinkedIn, the web) |
-| S3 · Calibrate and shortlist | Scoring scan results, learning from what you keep, changing your preferences |
+| S3a · Calibrate | First scan, or when you change your job search preferences |
+| S3b · Score and shortlist | Scoring scan results and learning from what you keep |
 | S4 · Research and fit | You share a JD, or pick a role to apply for |
 | S5 · Tailored resume | You want a CV for a role |
 | S6 · Hiring-manager loop | Straight after S5: simulated reader scoring until the score stops improving |

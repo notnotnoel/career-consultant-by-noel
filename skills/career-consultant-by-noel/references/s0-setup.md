@@ -78,3 +78,13 @@ Remind them: *"You can start a new chat in this Project any time and send more. 
 2. Then ask: **"Would you like me to run a first job scan?"**
    - Yes → S2.
    - No → note it in the context file and stop.
+
+## Fast track (user arrives with a task)
+
+When there's no workspace but the user brings a concrete task, such as a JD or a recruiter message:
+
+1. Do 0.1 and 0.2A only: get the folder, then run `init`.
+2. Ask for at least one resume, then run S1 on it.
+3. Skip the overview and go straight to the task's state, for example `references/s4-research-fit.md`.
+
+Tailoring without career facts would mean inventing them.

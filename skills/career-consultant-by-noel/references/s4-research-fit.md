@@ -47,6 +47,6 @@ Goal: understand the role well enough to decide whether to apply, and to give S5
    - Apply with caveats
    - Skip
 
-   Give the reason in at most three lines, plus the fit score using the S3 formula.
+   Give the reason in at most three lines, plus the fit score: Fit = 100 × (2 × must-have credit + nice-to-have credit) ÷ (2 × number of must-haves + number of nice-to-haves), with ✅ = 1, 🟡 = 0.5, 🔴 = 0, capped at 45 if a hard-gate must-have is 🔴.
 
 8. **Suggest a new chat.** Recommend starting a new chat in the Project for this application, named `<Company> · <Role> · S5`, then continue to S5 if the user wants the CV now.

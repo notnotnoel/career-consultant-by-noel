@@ -12,7 +12,7 @@ Every role you show must come from a tool result or a page you actually opened i
 
 ## 2.2 Calibrate first
 
-If the context file has no confirmed **Search preferences**, run S3 step 3.1 before searching. An uncalibrated first scan is the fastest way to lose the user's trust in the whole system.
+If the context file has no confirmed **Search preferences**, run `references/s3a-calibrate.md` before searching. An uncalibrated first scan is the fastest way to lose the user's trust in the whole system.
 
 ## 2.3 Plan the search
 
@@ -39,4 +39,4 @@ Remove:
 - **Postings that are closed or expired**, and any older than about 30 days unless they're clearly still open.
 - **Anything that fails a hard filter.**
 
-Then hand the pool to S3, step 3.2.
+Then hand the pool to `references/s3b-score-shortlist.md`, step 3.2.

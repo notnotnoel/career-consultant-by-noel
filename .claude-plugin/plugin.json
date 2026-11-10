@@ -1,7 +1,7 @@
 {
   "name": "career-consultant-by-noel",
   "displayName": "Career Consultant by Noel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A state-aware job-search system: verified career twin, scored job scans, JD-tailored resumes with hiring-manager scoring, outreach drafts, an application tracker, and interview and offer prep.",
   "author": {
     "name": "notnotnoel"

@@ -14,7 +14,7 @@ Goal: keep `00_Career Twin.md` the single verified record of the user's career. 
 
 3. **Reconcile with the existing twin.** When two sources disagree on a number, title or date, list each conflict and ask which is right. Never pick one silently. The twin is only useful if the user trusts every line in it.
 
-4. **Tag every metric.** Use `[VERIFIED: <file>]`, `[SELF]` or `[GAP]` (see SKILL.md).
+4. **Tag every metric.** Use `[VERIFIED: <file>]`, `[SELF]` or `[GAP]` (`[VERIFIED: <file>]` = backed by a document in Career Sources; `[SELF]` = the user's own account; `[GAP]` = needed but unknown).
 
 5. **Write into the template's sections.** For each role, record:
    - scope: team, budget, reporting line

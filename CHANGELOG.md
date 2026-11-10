@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 · 2026-11-10
+
+- **Lighter loading.** `SKILL.md` is now a short state selector of about 600 words, down from about 1,400. Each turn reads the selector plus one state guide only.
+- **Split guides.** S3 is now `s3a-calibrate.md` and `s3b-score-shortlist.md`. Folder layout, scripts and environments moved to `references/workspace.md`.
+- **Self-contained states.** Every state guide can run on its own: the fit formula is in S3b and S4, and the S0 guide has a fast-track section.
+
 ## 1.1.0 · 2026-11-09
 
 - **Resume format lock.** When the user has an approved master resume or a `Resume Format Standard.md` in Career Sources, every CV is built by copying that master and replacing the text only. Page 1 is compared with the master before delivery. The generic builder is used only when no master exists.
