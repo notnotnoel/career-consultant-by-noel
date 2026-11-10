@@ -28,3 +28,6 @@ Never send a message yourself. If an email connector is available, offer to save
 ## Tracker
 
 Run `workspace.py track` to set the follow-up action and due date. The default follow-up is 5 business days after the message.
+
+## Standing rules
+Use only facts in `00_Career Twin.md` — ask rather than invent a number. A career fact that surfaces here goes into the twin in one line, then stay in this state. Never send, submit, accept or decline anything for the user — draft only. Research people and companies from public professional sources only. Never write ID numbers, bank details or passwords into any file. Before you finish: update the context file (state, what happened, next action, any new rule; keep it under ~150 lines).

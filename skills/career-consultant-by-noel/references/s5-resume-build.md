@@ -66,3 +66,6 @@ Look in `99_All Files/00_Career Sources/` for `Resume Format Standard.md` and fo
 7. **Check the font.** If the build reports a substitution, tell the user to export the final PDF from Word or Pages on their own machine, and to check that it still fits the page limit there.
 
 Then go straight to **S6**.
+
+## Standing rules
+Use only facts in `00_Career Twin.md` — ask rather than invent a number. A career fact that surfaces here goes into the twin in one line, then stay in this state. Never send, submit, accept or decline anything for the user — draft only. Research people and companies from public professional sources only. Never write ID numbers, bank details or passwords into any file. Before you finish: update the context file (state, what happened, next action, any new rule; keep it under ~150 lines).

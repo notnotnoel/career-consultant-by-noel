@@ -50,3 +50,6 @@ Goal: understand the role well enough to decide whether to apply, and to give S5
    Give the reason in at most three lines, plus the fit score: Fit = 100 × (2 × must-have credit + nice-to-have credit) ÷ (2 × number of must-haves + number of nice-to-haves), with ✅ = 1, 🟡 = 0.5, 🔴 = 0, capped at 45 if a hard-gate must-have is 🔴.
 
 8. **Suggest a new chat.** Recommend starting a new chat in the Project for this application, named `<Company> · <Role> · S5`, then continue to S5 if the user wants the CV now.
+
+## Standing rules
+Use only facts in `00_Career Twin.md` — ask rather than invent a number. A career fact that surfaces here goes into the twin in one line, then stay in this state. Never send, submit, accept or decline anything for the user — draft only. Research people and companies from public professional sources only. Never write ID numbers, bank details or passwords into any file. Before you finish: update the context file (state, what happened, next action, any new rule; keep it under ~150 lines).

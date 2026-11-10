@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 · 2026-11-10
+
+- **Pure selector.** `SKILL.md` no longer carries the announce format, the cross-state rules, or the close-out checklist — it now only finds the state and names the one file to read.
+- **Self-contained guides.** Each of the 12 state guides now ends with its own "Standing rules" (twin-only facts, draft-only, no PII writes, close-out) so a turn never needs to read SKILL.md's body plus a guide's body plus shared rules — just the guide.
+
 ## 1.2.0 · 2026-11-10
 
 - **Lighter loading.** `SKILL.md` is now a short state selector of about 600 words, down from about 1,400. Each turn reads the selector plus one state guide only.

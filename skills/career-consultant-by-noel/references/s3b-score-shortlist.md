@@ -65,3 +65,6 @@ Finish with one line on the scan itself, for example "48 postings scanned, 31 af
 4. **Tell the user what changed**, in a short list: each rule added or removed, and why.
 
 5. **Go to S9.** Show the tracker, and ask which job to help with first.
+
+## Standing rules
+Use only facts in `00_Career Twin.md` — ask rather than invent a number. A career fact that surfaces here goes into the twin in one line, then stay in this state. Never send, submit, accept or decline anything for the user — draft only. Research people and companies from public professional sources only. Never write ID numbers, bank details or passwords into any file. Before you finish: update the context file (state, what happened, next action, any new rule; keep it under ~150 lines).

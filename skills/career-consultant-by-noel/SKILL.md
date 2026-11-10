@@ -4,12 +4,12 @@ description: Runs a job seeker's whole search in stages. It sets up a career twi
 license: MIT
 metadata:
   author: notnotnoel
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # Career consultant: state selector
 
-This file only picks the state. Read **one** state guide from `references/` and follow it. Don't read the other guides; loading them costs tokens and adds nothing.
+This file only finds the state. Read **one** file from `references/` below and follow it completely — each guide carries its own rules for that state and how to close out. Don't read any other guide or any other part of this skill; loading more than the selector plus one guide costs tokens and adds nothing.
 
 ## 1. Load context
 Find `02_Claude Context Window.md` in a connected folder, the working directory or the Project documents. Read it: it holds the current state, search preferences, learned rules and standing rules, and standing rules always apply. If you can't find it, ask whether the user has set up before. A new chat may only be missing the folder connection.
@@ -33,22 +33,9 @@ Find `02_Claude Context Window.md` in a connected folder, the working directory 
 | Status news ("applied", "rejected", "interview booked"), "show my tracker", "what's next" | S9 · Tracker | `references/s9-tracker.md` |
 | An offer to evaluate or negotiate | S10 · Offer | `references/s10-offer.md` |
 
-- **Not set up, but the user brings a task** (a JD, a recruiter message): read `s0-setup.md` for the fast track. Create the workspace, get one resume into the twin, then do the task.
-- **Unclear:** ask one short question.
-- **Folder layout, scripts, environments:** read `references/workspace.md` only when needed.
+- **Not set up, but the user brings a task** (a JD, a recruiter message): read `s0-setup.md` for the fast track.
+- **Unclear:** ask one short question, nothing else.
+- **Folder layout, scripts, environments:** read `references/workspace.md`, but only if a step you're already in sends you there.
 
-## 3. Announce
-Open with one line: **State: S4 · Research and fit.** + the reason (for example "You shared the Contoso JD, so I'm skipping the scan."). Announce again each time the state changes.
-
-## 4. Rules for every state
-- Use only facts in `00_Career Twin.md`. If something is missing, ask; never invent a number.
-- A career fact found during another state goes into the twin; mention it in one line and stay in your state.
-- Never send, submit, accept or decline anything for the user. Draft only.
-- Research people from public professional information only. Browse job boards in the user's session at a normal pace.
-- Never write ID numbers, bank details or passwords into files.
-- Resumes: if `99_All Files/00_Career Sources/` has a format standard or an approved master resume, copy the master and replace text only (S5 Step 0).
-
-## 5. After the state
-- Update the context file: state, what happened, next action, new rules. Keep it under ~150 lines.
-- If an application changed, update the tracker (`python scripts/workspace.py track …`).
-- End with one next step and the state it starts. When the user starts an application, suggest a new chat named `<Company> · <Role> · <step>`.
+## 3. Read that one file
+Open with one line — **State: S4 · Research and fit.** + the reason — then follow the guide end to end. It's self-contained: don't pull in SKILL.md's wording or any other guide to fill it out.

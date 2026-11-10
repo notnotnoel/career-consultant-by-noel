@@ -57,3 +57,6 @@ When the user corrects a fact:
 2. Add an entry to the Corrections log, for example `don't regress: team was 12, not 30+ (corrected 2026-11-08)`.
 
 Every later CV and message reads this log, so the same mistake can't creep back in from an old source.
+
+## Standing rules
+Use only facts in `00_Career Twin.md` — ask rather than invent a number. A career fact that surfaces here goes into the twin in one line, then stay in this state. Never send, submit, accept or decline anything for the user — draft only. Research people and companies from public professional sources only. Never write ID numbers, bank details or passwords into any file. Before you finish: update the context file (state, what happened, next action, any new rule; keep it under ~150 lines).
